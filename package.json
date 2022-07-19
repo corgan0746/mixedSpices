@@ -1,16 +1,15 @@
 {
   "name": "spices-merged-params",
   "version": "1.0.0",
-  "description": "",
   "main": "functions/server.js",
   "scripts": {
     "build": "netlify-lambda build express",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
   "keywords": [
     "netlify",
-    "express.js"],
+    "express.js"
+  ],
   "author": "me",
   "license": "ISC",
   "dependencies": {
@@ -18,5 +17,15 @@
     "express": "^4.18.1",
     "netlify-lambda": "^2.0.15",
     "path": "^0.12.7"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corgan0746/mixedSpices.git"
+  },
+  "bugs": {
+    "url": "https://github.com/corgan0746/mixedSpices/issues"
+  },
+  "homepage": "https://github.com/corgan0746/mixedSpices#readme",
+  "description": ""
 }
